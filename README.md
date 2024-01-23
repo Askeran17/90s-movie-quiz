@@ -1,32 +1,59 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The 90´s Movie Quiz
 
-Welcome,
+The quiz is dedicated to movie fans of the 90s. This quiz will refresh the memory of movie lovers of the last century, giving you the opportunity to remember the names of your favorite actors and the films in which they starred.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
+You can check out the website [here](https://the-90s-movie-quiz-a101c5992da4.herokuapp.com/)!
 
-## Reminders
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+### Validator Testing 
 
-## Creating the Heroku app
+- Python
+  - No errors were returned when passing through the [PEP8 Validator](images/pep8-validator.png)
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+### Unfixed Bugs
 
-1. `heroku/python`
-2. `heroku/nodejs`
+There were no unfixed bugs in this app.
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+## Technologies Used
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+### Workspace
 
-Connect your GitHub repository and deploy as normal.
+I did all the work in Codeanywhere, and at the same time I used PyCharm as a draft and sometimes wrote the code there, and then copied it from there and pasted it into Codeanywhere.
 
-## Constraints
+### Languages Used
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+HTML, Python
 
----
+### Frameworks, Libraries & Programs Used
 
-Happy coding!
+* [Github](https://github.com/) - To save and store the files for the website.
+* [Heroku](https://www.heroku.com) - Deploy platform
+* [Lucid](https://lucid.app) - Write flow chart
+* [W3Schools](https://www.w3schools.com/) - Study material about python 
+
+## Deployment
+
+Heroku
+
+* The project was deployed to Heroku in the following manner:
+
+1. Firstly you need to sign up on the Heroku website.
+2. There after choose new and "create New App".
+3. Give the app a name: the-90s-quiz-movie.
+4. Choose a region: Europe.
+5. Go to settings and add following buildpacks: "Python and Node.js".
+6. Go to deploy, see Deployment Method and select GitHub.
+7. To connect your Heroku app to your code in a Github repository, you need to enter the name of your repository and click on the "Search" button. After that click on button “Connect” when it appears.
+8. Select the branch from which you want to build your application. Optionally, click "Enable Automatic Deployment" to ensure the application is up to date in your GitHub repository.
+9. You have to wait until the app is build. When it wiil be done it will appear an “App was successfully deployed” message and after that you will see a "View" button. When you click on this button you will see your app deployed.
+10. You can go to my deployed app here: [The 90´s Movie Quiz](https://the-90s-movie-quiz-a101c5992da4.herokuapp.com/)
+
+<br><br>
+
+## Credits 
+
+I was inspired by this video (https://www.youtube.com/watch?v=yriw5Zh406s),these tutorial: (https://realpython.com/python-quiz-application/) and "The Love Sandwiches Project" by Anna Greaves.
+
+### Content 
+
+- All content for the site was written by myself.
