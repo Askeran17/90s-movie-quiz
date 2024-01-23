@@ -8,7 +8,7 @@ You can check out the website [here](https://the-90s-movie-quiz-a101c5992da4.her
 ### Validator Testing 
 
 - Python
-  - No errors were returned when passing through the [PEP8 Validator](images/pep8-validator.png)
+  - No errors were returned when passing through the ![PEP8 Validator](images/pep8-validator.png)
 
 ### Unfixed Bugs
 
@@ -47,8 +47,6 @@ Heroku
 8. Select the branch from which you want to build your application. Optionally, click "Enable Automatic Deployment" to ensure the application is up to date in your GitHub repository.
 9. You have to wait until the app is build. When it wiil be done it will appear an “App was successfully deployed” message and after that you will see a "View" button. When you click on this button you will see your app deployed.
 10. You can go to my deployed app here: [The 90´s Movie Quiz](https://the-90s-movie-quiz-a101c5992da4.herokuapp.com/)
-
-<br><br>
 
 ## Credits 
 
