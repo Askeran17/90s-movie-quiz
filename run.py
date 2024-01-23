@@ -1,3 +1,16 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+import time
+import pyfiglet
+import os
+
+
+def start_screen():
+    """
+    Start image
+    """
+    quiz_image = pyfiglet.figlet_format("The 90´s Movie Quiz")
+    print(quiz_image)
+    time.sleep(4)
+    os.system('clear')
+
+
+start_screen()
