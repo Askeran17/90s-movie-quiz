@@ -18,7 +18,7 @@ start_screen()
 # welcome message and game options
 while True:
     print("Welcome to the 90´s Movie Quiz!\n\n")
-    start_select = input("Would you like to start? Yes / No: ").lower()
+    start_select = input("Would you like to start? Yes / No:\n").lower()
     start_select = start_select.strip()
     if start_select == "yes":
         print("Great! You have to answer 10 questions. Let's start!")
@@ -122,7 +122,7 @@ def play_quiz(quiz_answer):
     for questions_quiz in quiz_answer:
         while True:
             print(questions_quiz.question)
-            options = input("Please select A, B, C, or D: ")
+            options = input("Please select A, B, C, or D:\n")
             answer_select = options.lower()
             answer_select = answer_select.strip()
             if answer_select not in ['a', 'b', 'c', 'd']:
@@ -157,7 +157,7 @@ play_quiz(quiz_answer)
 
 # restart or exit quiz
 while True:
-    restart_select = input('Restart the quiz? Yes / No: ').lower()
+    restart_select = input('Restart the quiz? Yes / No:\n').lower()
     restart_select = restart_select.strip()
     if restart_select == "yes":
         time.sleep(2)
