@@ -111,3 +111,63 @@ quiz_answer = [
     Quiz(questions_list[8], 'a'),
     Quiz(questions_list[9], 'b'),
 ]
+
+
+def play_quiz(quiz_answer):
+    """
+    Play quiz function
+    """
+    score = 0
+
+    for questions_quiz in quiz_answer:
+        while True:
+            print(questions_quiz.question)
+            options = input("Please select A, B, C, or D: ")
+            answer_select = options.lower()
+            answer_select = answer_select.strip()
+            if answer_select not in ['a', 'b', 'c', 'd']:
+                print('This is not a valid choice.\n\n')
+                time.sleep(2)
+                os.system('clear')
+            else:
+                time.sleep(2)
+                break
+        if answer_select == questions_quiz.answer:
+            score += 1
+            print("\nThat is correct ✅\n\n")
+            time.sleep(2)
+            os.system('clear')
+            continue
+        else:
+            print("\nThat is wrong ❌\n\n")
+            time.sleep(2)
+            os.system('clear')
+
+    print('You answered right ' + str(score) + ' of ' + str(len(quiz_answer)))
+    time.sleep(3)
+    os.system('clear')
+    end_image = pyfiglet.figlet_format("The End")
+    print(end_image)
+    time.sleep(3)
+    os.system('clear')
+
+
+play_quiz(quiz_answer)
+
+
+# restart or exit quiz
+while True:
+    restart_select = input('Restart the quiz? Yes / No: ').lower()
+    restart_select = restart_select.strip()
+    if restart_select == "yes":
+        time.sleep(2)
+        os.system('clear')
+        play_quiz(quiz_answer)
+    elif restart_select not in ['yes', 'no']:
+        print('This is not a valid input.\n\n')
+    else:
+        time.sleep(2)
+        os.system('clear')
+        bye_image = pyfiglet.figlet_format("Bye! See you again :)")
+        print(bye_image)
+        quit()
