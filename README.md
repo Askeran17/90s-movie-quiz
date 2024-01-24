@@ -47,10 +47,13 @@ __Questions and answers__
 __End of the quiz__
 
 - After the player answers all 10 questions, he will receive a message about the game score, that is, how many questions he answered correctly.
+
 ![Score](images/score.png)
 
 - This is followed by a splash screen with the words: “The End” and then the choice to start the game again is displayed.
+
 ![End Game](images/end-game.png)
+
 ![Restart](images/restart.png)
 
 - If the player agrees to start the game again, then he again gets to the very first question. If the player refuses, then a splash screen with the words “Bye! See you again” is displayed and after that the game ends.
