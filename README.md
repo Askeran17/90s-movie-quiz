@@ -36,10 +36,10 @@ __Questions and answers__
 
 - The player is given the option of choosing the answer A, B, C or D. If the player enters the correct answer, he receives a message that he answered correctly and the game continues.
 
-![Correct Answer](images/correct-answer.png)
+![Correct Answer](images/quiz-answer-correct.png)
 
 - If the answer is incorrect, the player receives a message that the answer is wrong, and the quiz also continues.
-![Wrong Answer](images/wrong-answer.png)
+![Wrong Answer](images/quiz-answer-wrong.png)
 
 - If the player specifies any other value not from the list A, B, C or D, then he receives a message that this is an invalid choice and returns back to the question and is again asked to choose an answer option from the list A, B, C or D. When the player finally selects an option from this list, the quiz continues.
 ![Invalid Choice](images/invalid-choice.png)
