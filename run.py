@@ -134,12 +134,12 @@ def play_quiz(quiz_answer):
                 break
         if answer_select == questions_quiz.answer:
             score += 1
-            print("\nThat is correct ✅\n\n")
+            print("\nThat is correct answer!\n\n")
             time.sleep(2)
             os.system('clear')
             continue
         else:
-            print("\nThat is wrong ❌\n\n")
+            print("\nThat is wrong answer\n\n")
             time.sleep(2)
             os.system('clear')
 

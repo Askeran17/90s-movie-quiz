@@ -7,7 +7,7 @@ You can check out the website [here](https://the-90s-movie-quiz-a101c5992da4.her
 ## Design
 I used program "Lucid" to write flow chart.
 
-![Lucid](images/lucid-scheme.png)
+![Lucid](images/lucid-scheme-chart.png)
 
 ## Features
 
