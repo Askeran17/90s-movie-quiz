@@ -80,7 +80,7 @@ __Visitors__
 ### Validator Testing 
 
 - Python
-  - No errors were returned when passing through the ![PEP8 Validator](images/pep8-validator.png)
+  - No errors were returned when passing through the ![PEP8 Validator](images/validator-pep8.png)
 
 ### Unfixed Bugs
 
