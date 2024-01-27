@@ -63,6 +63,12 @@ __End of the quiz__
 - If the player enters any value other than the "Yes or No" list, he is prompted that this is an invalid input and is returned back to being asked to enter a Yes or No answer.
 When the player finally selects an option from this list, the quiz will either start over or end, depending on the answer chosen.
 
+### Manual Testing
+
+__Visitors__
+
+| Goal | Has the goal been achieved? |
+
 ### Validator Testing 
 
 - Python
