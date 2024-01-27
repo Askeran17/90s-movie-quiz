@@ -34,7 +34,9 @@ __Start__
 ![Enter Age 12 or more](images/quiz-age-invalid-input.png)
 
 - If the player enters the word “No” in the beginning of the quiz, a splash screen appears with the words “Very sorry” and the quiz ends.
-![Refusal To Play](images/choice-no-image-end.png)
+
+![Refusal To Play](images/quiz-start-select-no.png)
+![End Image If No](images/choice-no-image-end.png)
 
 - If the player in the beginning of quiz enters any value other than the "Yes or No" list, he receives a message that this is an invalid input and is returned back to being asked to enter a Yes or No answer.
 When the player finally selects an option from this list, the game will either start or end depending on the answer chosen.
