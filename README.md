@@ -122,7 +122,7 @@ Heroku
 
 ## Credits 
 
-I was inspired by this video (https://www.youtube.com/watch?v=yriw5Zh406s),these tutorial: (https://realpython.com/python-quiz-application/) and "The Love Sandwiches Project" by Anna Greaves.
+I was inspired by this video (https://www.youtube.com/watch?v=yriw5Zh406s), these tutorial: (https://realpython.com/python-quiz-application/) and "The Love Sandwiches Project" by Anna Greaves.
 
 ### Content 
 
