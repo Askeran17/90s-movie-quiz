@@ -15,13 +15,16 @@ def start_screen():
 
 start_screen()
 
+
 # welcome message and game options
 while True:
+
+    # First get the user's input, and if 'yes', proceed to prompt user for age.
+
     print("Welcome to the 90´s Movie Quiz!\n\n")
     start_select = input("Would you like to start? Yes / No:\n").lower()
     start_select = start_select.strip()
     if start_select == "yes":
-        print("Great! You have to answer 10 questions. Let's start!")
         time.sleep(2)
         os.system('clear')
         break
@@ -35,6 +38,28 @@ while True:
         sorry_image = pyfiglet.figlet_format("Very sorry ( :")
         print(sorry_image)
         quit()
+
+# prompt for age
+
+while True:
+    try:
+        age = int(input('Enter your age:\n'))
+        if age >= 12:
+            print("Great! You have to answer 10 questions. Let´s go!")
+            time.sleep(2)
+            os.system('clear')
+            break
+        else:
+            print('You are under 12 years old')
+            time.sleep(2)
+            os.system('clear')
+            sorry_image = pyfiglet.figlet_format("Very sorry ( :")
+            print(sorry_image)
+            quit()
+    except ValueError:
+        print('This is not valid input')
+        time.sleep(2)
+        os.system('clear')
 
 
 # class in which questions and answers are stored
