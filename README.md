@@ -75,9 +75,26 @@ When the player finally selects an option from this list, the quiz will either s
 
 ### Manual Testing
 
-__Visitors__
+The following tests were carried out to ensure the quiz is working correctly.
 
-| Goal | Has the goal been achieved? |
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Start input| User requires inputs Yes or No to start quiz | Yes or No input| Works as expected |
+| Start input | User doesn´t input Yes or No | Error message appears | Works as expected |
+| Start input| User inputs Yes or No with a capital or small letter| Capital or Small letter input| Works as expected |
+| Start input| User inputs Yes or No with a space | Space input| Works as expected |
+| Age input| User requires to input their age by numbers | Numbers input| Works as expected |
+| Age input| User doesn´t input number instead enters for example letter| Error message appears| Works as expected |
+| Age input| User input number with a space | Space input| Works as expected |
+| Answer options| User enters A, B, C, D to answer| A, B, C, D input| Works as expected |
+| Answer options| User doesn´t input A, B, C, D to answer| Error message appears| Works as expected |
+| Answer options| User inputs answer with a capital or small letter| Capital or Small letter input| Works as expected |
+| Answer options| User inputs answer with a space | Space input| Works as expected |
+| Restart input| User requires inputs Yes or No to restart quiz | Yes or No input| Works as expected |
+| Restart input | User doesn´t input Yes or No | Error message appears | Works as expected |
+| Restart input| User inputs Yes or No with a capital or small letter| Capital or Small letter input| Works as expected |
+| Restart input| User inputs Yes or No with a space | Space input| Works as expected |
+
 
 ### Validator Testing 
 
