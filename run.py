@@ -18,9 +18,6 @@ start_screen()
 
 # welcome message and game options
 while True:
-
-    # First get the user's input, and if 'yes', proceed to prompt user for age.
-
     print("Welcome to the 90´s Movie Quiz!\n\n")
     start_select = input("Would you like to start? Yes / No:\n").lower()
     start_select = start_select.strip()
@@ -39,8 +36,7 @@ while True:
         print(sorry_image)
         quit()
 
-# prompt for age
-
+# request for age
 while True:
     try:
         age = int(input('Enter your age:\n'))
