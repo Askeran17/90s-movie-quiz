@@ -5,7 +5,7 @@ The quiz is dedicated to movie fans of the 90s. This quiz will refresh the memor
 You can check out the website [here](https://the-90s-movie-quiz-a101c5992da4.herokuapp.com/)!
 
 ## Design
-I used program "Lucid" to write flow chart.
+I used program "Lucid" to write flow chart. Here in the scheme you can see how the quiz works.
 
 ![Lucid](images/lucid-scheme.png)
 
@@ -113,7 +113,7 @@ I did all the work in Codeanywhere, and at the same time I used PyCharm as a dra
 
 ### Languages Used
 
-HTML, Python
+HTML, Python.
 
 ### Frameworks, Libraries & Programs Used
 
