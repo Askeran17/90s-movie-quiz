@@ -1,6 +1,6 @@
 # The 90´s Movie Quiz
 
-The quiz is dedicated to movie fans of the 90s. This quiz will refresh the memory of movie lovers of the last century, giving you the opportunity to remember the names of your favorite actors and the films in which they starred. The quiz consists of 10 questions.
+The quiz is dedicated to movie fans of the 90s. This quiz will refresh the memory of movie lovers of the last century, giving you the opportunity to remember the names of your favorite actors and the films in which they starred. Perhaps after taking this quiz the player will want to watch old films from the 90s and so I hope that this one will help in raising the good mood of everyone who plays this quiz. The quiz consists of 10 questions in which four possible answers are offered.
 
 You can check out the website [here](https://the-90s-movie-quiz-a101c5992da4.herokuapp.com/)!
 
