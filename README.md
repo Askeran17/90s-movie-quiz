@@ -23,13 +23,19 @@ __Start__
 - Then the player is given the opportunity to play the quiz or refuse. If the player agrees to start the quiz by entering the word “Yes”, then the player is then required to enter their age. If the player is 12 or older, a message “Great! You have to answer 10 questions. Let's start!” is displayed to him and he begins and quiz begins.
 
 ![Start Choice](images/quiz-start-select-yes.png)
-![Start Choice](images/quiz-enter-age-12.png)
+![Enter Age 12 or more](images/quiz-enter-age-12.png)
 
+- If the player is under 12 years old, he receives a message about this and then the game ends with words “Very sorry”.
+![Enter Under 12](images/quiz-enter-age-under-12.png)
+![Enter Age 12 or more](images/choice-no-image-end.png)
 
-- If the player enters the word “No”, a splash screen appears with the words “Very sorry” and the quiz ends.
+- If the player enters not a number, but for example letters, then a message is displayed that the input is not valid and it is returned back to enter the number again
+![Enter Age 12 or more](images/quiz-age-invalid-input.png)
+
+- If the player enters the word “No” in the beginning of the quiz, a splash screen appears with the words “Very sorry” and the quiz ends.
 ![Refusal To Play](images/choice-no-image-end.png)
 
-- If the player enters any value other than the "Yes or No" list, he receives a message that this is an invalid input and is returned back to being asked to enter a Yes or No answer.
+- If the player in the beginning of quiz enters any value other than the "Yes or No" list, he receives a message that this is an invalid input and is returned back to being asked to enter a Yes or No answer.
 When the player finally selects an option from this list, the game will either start or end depending on the answer chosen.
 ![Start Invalid Input](images/start-invalid-input.png)
 
