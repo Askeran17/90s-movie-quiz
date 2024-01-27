@@ -120,7 +120,9 @@ HTML, Python
 * [Github](https://github.com/) - To save and store the files for the website.
 * [Heroku](https://www.heroku.com) - Deploy platform
 * [Lucid](https://lucid.app) - Write flow chart
-* [W3Schools](https://www.w3schools.com/) - Study material about python 
+* [W3Schools](https://www.w3schools.com/) - Study material about python
+
+I used also a pyfiglet module in my code which displays the image.
 
 ## Deployment
 
