@@ -11,7 +11,7 @@ I used program "Lucid" to write flow chart.
 
 ## Features
 
-When compiling the game, I took into account the ability to select answer options with both capital and small letters, so that there would be no error when entering. You can also, for example, put a space next to the answer option and indicate the option, the game will work correctly.
+When compiling the game, I took into account the ability to select answer options with both capital and small letters, so that there would be no error when entering. You can also, for example, put a space next to the answer option and indicate the option, the game will work correctly. I added the same feature for entering values at the beginning and end of the game. And also added the ability to enter age, so that only numbers can be entered. And you can also enter them with or without a space, everything will work fine.
 
 ### Existing Features
 
