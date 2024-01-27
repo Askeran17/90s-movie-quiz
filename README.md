@@ -22,7 +22,8 @@ __Start__
 
 - Then the player is given the opportunity to play the quiz or refuse. If the player agrees to start the quiz by entering the word “Yes”, then the player is then required to enter their age. If the player is 12 or older, a message “Great! You have to answer 10 questions. Let's start!” is displayed to him and he begins and quiz begins.
 
-![Start Choice](images/start-choice-yes.png)
+![Start Choice](images/quiz-start-select-yes.png)
+![Start Choice](images/quiz-enter-age-12.png)
 
 
 - If the player enters the word “No”, a splash screen appears with the words “Very sorry” and the quiz ends.
