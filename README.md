@@ -26,6 +26,7 @@ __Start__
 ![Enter Age 12 or more](images/quiz-enter-age-12.png)
 
 - If the player is under 12 years old, he receives a message about this and then the game ends with words “Very sorry”.
+
 ![Enter Under 12](images/quiz-enter-age-under-12.png)
 ![Enter Age 12 or more](images/choice-no-image-end.png)
 
