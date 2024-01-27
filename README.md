@@ -17,7 +17,7 @@ When compiling the game, I took into account the ability to select answer option
 
 __Start__
 
-- The quiz begins with a start image "The 90s Movie Quiz"
+- The quiz begins with a start image "The 90s Movie Quiz".
 ![Start Image](images/start-image.png)
 
 - Then the player is given the opportunity to play the quiz or refuse. If the player agrees to start the quiz by entering the word “Yes”, then the player is then required to enter their age. If the player is 12 or older, a message “Great! You have to answer 10 questions. Let's start!” is displayed to him and he begins and quiz begins.
@@ -30,7 +30,7 @@ __Start__
 ![Enter Under 12](images/quiz-enter-age-under-12.png)
 ![Enter Age 12 or more](images/choice-no-image-end.png)
 
-- If the player enters not a number, but for example letters, then a message is displayed that the input is not valid and it is returned back to enter the number again
+- If the player enters not a number, but for example letters, then a message is displayed that the input is not valid and it is returned back to enter the number again.
 ![Enter Age 12 or more](images/quiz-age-invalid-input.png)
 
 - If the player enters the word “No” in the beginning of the quiz, a splash screen appears with the words “Very sorry” and the quiz ends.
