@@ -2,7 +2,7 @@
 
 The quiz is dedicated to movie fans of the 90s. This quiz will refresh the memory of movie lovers of the last century, giving you the opportunity to remember the names of your favorite actors and the films in which they starred. Perhaps after taking this quiz the player will want to watch old films from the 90s and so I hope that this one will help in raising the good mood of everyone who plays this quiz. The quiz consists of 10 questions in which four possible answers are offered.
 
-You can check out the website [here](https://the-90s-movie-quiz-a101c5992da4.herokuapp.com/)!
+You can check out the website [here](https://nine0s-movie-quiz.onrender.com/)!
 
 ## Design
 I used program "Lucid" to write flow chart. Here in the scheme you can see how the quiz works.
@@ -118,7 +118,7 @@ HTML, Python.
 ### Frameworks, Libraries & Programs Used
 
 * [Github](https://github.com/) - To save and store the files for the website.
-* [Heroku](https://www.heroku.com) - Deploy platform
+* [Render](https://render.com) - Deploy platform
 * [Lucid](https://lucid.app) - Write flow chart
 * [W3Schools](https://www.w3schools.com/) - Study material about python
 
@@ -126,20 +126,21 @@ I used also a pyfiglet module in my code which displays the image.
 
 ## Deployment
 
-Heroku
+Render
 
-* The project was deployed to Heroku in the following manner:
+* The project was deployed to Render in the following manner:
 
-1. Firstly you need to sign up on the Heroku website.
-2. There after choose new and "create New App".
-3. Give the app a name: the-90s-quiz-movie.
-4. Choose a region: Europe.
-5. Go to settings and add following buildpacks: "Python and Node.js".
-6. Go to deploy, see Deployment Method and select GitHub.
-7. To connect your Heroku app to your code in a Github repository, you need to enter the name of your repository and click on the "Search" button. After that click on button “Connect” when it appears.
-8. Select the branch from which you want to build your application. Optionally, click "Enable Automatic Deployment" to ensure the application is up to date in your GitHub repository.
-9. You have to wait until the app is build. When it wiil be done it will appear an “App was successfully deployed” message and after that you will see a "View" button. When you click on this button you will see your app deployed.
-10. You can go to my deployed app here: [The 90´s Movie Quiz](https://the-90s-movie-quiz-a101c5992da4.herokuapp.com/)
+1. First, you need to sign up on the Render website.
+2. Click on "New" and select "Web Service".
+3. Connect your GitHub account and select the repository.
+4. Choose "Docker" as the Environment (Render will automatically detect the Dockerfile).
+5. Give your service a name.
+6. Choose a region (e.g., Frankfurt for Europe).
+7. Select the free plan or any other plan that suits your needs.
+8. Set the environment variable `PORT` to `8080` (or your preferred port).
+9. Click "Create Web Service".
+10. Wait until the deployment is complete. Once finished, Render will provide you with a URL to access your deployed app.
+11. You can access my deployed app here: [The 90´s Movie Quiz](https://nine0s-movie-quiz.onrender.com/)
 
 ## Credits 
 
